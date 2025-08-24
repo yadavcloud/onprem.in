@@ -6,7 +6,7 @@ the following:
 
 - Orchestration: Apache CloudStack
 - Compute: KVM/Qemu+Linux (NUC/Mini PCs)
-- Storage: Local storage (NVMe), NFS, Linstor, Ceph
+- Storage: Local storage (NVMe), NFS, Ceph, Linstor...
 - Networking: PFSense, managed switches (1G/10G/40G)
 
 This may be useful for SMBs, enterprises, service providers, startups and
