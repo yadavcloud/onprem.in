@@ -3,7 +3,6 @@ title: Ceph Ubuntu/KVM Install Guide
 description: Software-Defined Storage Install Guide
 sidebar:
   order: 2
-  badge: Storage
 ---
 
 WIP...

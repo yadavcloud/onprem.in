@@ -1,6 +1,6 @@
 ---
 title: Apache CloudStack Ubuntu/KVM Install Guide
-description: An IaaS Private Cloud Install Guide
+description: An IaaS Private Cloud Install Guide based on opensource Apache CloudStack, Ubuntu/Linux and KVM
 sidebar:
   order: 1
   badge: Popular
