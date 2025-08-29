@@ -15,6 +15,20 @@ export default defineConfig({
                 light: '/src/assets/onprem.svg',
                 dark: '/src/assets/onprem.svg',
             },
+            head: [
+              {
+                tag: "script",
+                attrs: {
+                  src: "https://www.googletagmanager.com/gtag/js?id=G-C6LSEE58JB",
+                  defer: true,
+                },
+              },
+              {
+                tag: "script",
+                content:
+                  "window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-C6LSEE58JB');",
+              },
+            ],
             social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/rohityadavcloud' }],
             sidebar: [
                 {
