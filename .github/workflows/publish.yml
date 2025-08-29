@@ -15,10 +15,10 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 18.x
-          cache: yarn
+          cache: npm
       - run: |
-          yarn install --frozen-lockfile
-          yarn build
+          npm install
+          npm run build
           export WWW_COMMIT=`git rev-parse HEAD`
       - name: Publish PR change to www branch
         uses: peaceiris/actions-gh-pages@v3
