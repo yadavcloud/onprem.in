@@ -17,7 +17,9 @@ export default defineConfig({
 					label: 'Guides',
 					items: [
 						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', slug: 'guides/start' },
+						{ label: 'CloudStack Ubuntu/KVM Install Guide', slug: 'guides/cloudstack' },
+						{ label: 'Ceph Deployment Guide', slug: 'guides/ceph' },
+						{ label: 'Wireguard Setup Guide', slug: 'guides/wireguard' },
 					],
 				},
 				{

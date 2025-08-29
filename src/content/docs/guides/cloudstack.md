@@ -1,18 +1,12 @@
 ---
-title: Example Guide
-description: A guide in my new Starlight docs site.
-pagefind: false
+title: Apache CloudStack Ubuntu/KVM Install Guide
+description: An IaaS Private Cloud Install Guide
 sidebar:
   order: 1
-  badge: Demo
+  badge: Popular
 ---
 
-Guides lead a user through a specific task they want to accomplish, often with a sequence of steps.
-Writing a good guide requires thinking about what your users are trying to do.
-
-## Further reading
-
-- Read [about how-to guides](https://diataxis.fr/how-to-guides/) in the Diátaxis framework
+WIP...
 
 A page with a wide variety of different [Markdown syntax](https://starlight.astro.build/guides/authoring-content/) or [components](https://starlight.astro.build/components/using-components/) to show how these look together.
 See the following pages for individual examples.
