@@ -26,7 +26,7 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: www
-          publish_dir: ./build
+          publish_dir: ./dist
           destination_dir: ./
           force_orphan: true
           cname: onprem.in
